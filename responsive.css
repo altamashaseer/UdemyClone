@@ -1,0 +1,46 @@
+.nav-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    flex-direction: column;
+    height: 70vh;
+    transition:all 0.3s ease-out;
+}
+
+.logo img{
+    width: 100%;
+}
+.rightnav {
+    text-align: center; 
+}
+#search{
+    width: 100%;
+}
+
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+section{
+    flex-direction: column-reverse !important;
+    max-width: 100%;
+}
+.txt{
+    text-align: center;
+    padding: 0;
+}
+.section img{
+    width:80%;
+}
+
+.burger{
+    display:block ;
+}
+.h-nav-resp{
+    height: 60px;
+}
+.v-resp{
+    opacity: 0;
+}
